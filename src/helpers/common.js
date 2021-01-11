@@ -1,0 +1,1 @@
+export const generateRandomString = (length = 32) => Math.random().toString(20).substr(2, length);
